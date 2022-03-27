@@ -1,0 +1,94 @@
+body {
+    background-color: lemonchiffon;
+    color: black;
+    text-align: center;
+    padding: 5%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    margin-bottom: 20px;
+    font-size: 3rem;
+    color: black;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.timer,
+.errors,
+.accuracy,
+.cpm,
+.wpm {
+    background-color: lightsalmon;
+    height: 60px;
+    width: 70px;
+    margin: 8px;
+    padding: 12px;
+    border-radius: 10%;
+    box-shadow: crimson 5px 5px 5px;
+}
+
+.cpm,
+.wpm {
+    display: none;
+}
+
+.header_text {
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    font-weight: 600;
+}
+
+.time,
+.currentAccuracy,
+.currentErrors,
+.currentCPM,
+.currentWPM {
+    font-size: 2.75rem;
+}
+
+.quote {
+    background-color: honeydew;
+    border: 3px solid mediumturquoise;
+    font-size: 1.5rem;
+    margin: 20px;
+    padding: 25px;
+    box-shadow: black 5px 5px 5px;
+}
+
+.input {
+    background-color: floralwhite;
+    height: 80px;
+    width: 40%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 25px;
+    padding: 20px;
+    box-shadow: black 5px 8px 5px;
+}
+
+.restart {
+    display: none;
+    background-color: #24fff8;
+    font-size: 1.5rem;
+    padding: 10px;
+    border: 0px;
+    box-shadow: black 5px 8px 5px;
+}
+
+.incorrect_char {
+    color: red;
+    text-decoration: underline;
+}
+
+.correct_char {
+    color: rgb(5, 199, 102);
+}
